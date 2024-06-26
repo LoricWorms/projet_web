@@ -1,0 +1,15 @@
+base de données :
+
+table livre : code livre ; nom livre ; code auteur ; code illustrateur ;  code édition ; code genre 
+
+table auteur : code auteur : nom auteur
+
+table illustrateur : code illustrateur : nom illustrateur
+
+table édition : code édition ; nom édition
+
+table genre : code genre ; nom genre
+
+table utilisateur : code utilisateur ; non utilisateur : mot de passe
+
+table emprunt : code emprunt ; code utilisateur ; date emprunt ; date retour 

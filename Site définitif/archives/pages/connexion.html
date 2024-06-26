@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" href="../images/Book-store-png.png" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Connexion</title>
+</head>
+
+<body>
+    <header>
+        <h1>Connexion</h1>
+        <!-- <nav>
+            <ul>
+                <li><a class="nav-li" href="index.html">Accueil</a></li>
+                <li><a class="nav-li" href="#">Catalogue</a></li>
+                <li><a class="nav-li" href="#">Événements</a></li>
+                <li><a class="nav-li" href="galerie.html">À propos</a></li>
+                <li><a class="nav-li" href="contact.html">Contact</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+        <!--Pour la connexion-->
+        <div class="form-box login">
+            <h2 class="animation" style="--i:0; --j:21;">Connexion</h2>
+            <form>
+                <div class="input-box animation" style="--i:1; --j:22;">
+                    <input type="email" inputmode="email" required />
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box animation" style="--i:2; --j:23;">
+                    <input type="password" required />
+                    <label>Mot de passe</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn animation" style="--i:3; --j:24">Se connecter</button>
+                <div class="logreg-link animation" style="--i:4; --j:25;">
+                    <p>Pas de compte ? <a href="#" class="register-link">Créer un compte</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text login">
+            <h2 class="animation" style="--i:0; --j:20;">Welcome back!</h2>
+            <p class="animation" style="--i:1; --j:21;">
+                Connectez vous pour empruntez des milliers de livres
+                de la bibliothèque.
+            </p>
+        </div>
+        <!--Pour l'inscription-->
+        <div class="form-box register">
+            <h2 class="animation" style="--i:17;">Inscrivez-vous</h2>
+            <form>
+                <div class="input-box animation" style="--i:18; --j:0;">
+                    <input type="text" required />
+                    <label>Nom</label>
+                    <i class='bx bxs-id-card'></i>
+
+                </div>
+                <div class="input-box animation" style="--i:19; --j:1;">
+                    <input type="text" required />
+                    <label>Prénom</label>
+                    <i class='bx bx-user'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:2;">
+                    <input type="email" inputmode="email" required />
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box animation" style="--i:21; --j:3;">
+                    <input type="password" required />
+                    <label>Mot de passe</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn animation" style="--i:22; --j:4;">S'inscrire</button>
+                <div class="logreg-link animation" style="--i:23; --j:5;">
+                    <p>Déjà un compte ? <a href="#" class="login-link">Se connecter</a></p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="info-text register">
+            <h2 class="animation" style="--i:17; --j:0;">Inscrivez vous !</h2>
+            <p class="animation" style="--i:18; --j:1;">
+                Créez vous un compte pour accéder à des milliers
+                de livres de la bibliothèque, et tout
+                ça gratuitement.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bibliothèque Associative. Tous droits réservés.</p>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>

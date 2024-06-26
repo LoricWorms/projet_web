@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter</title>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYdrtEL6KwioapYVht19RlCuaDcoV2o0w&callback=console.debug&libraries=maps,marker&v=beta"></script>
+    <link rel="stylesheet" href="../css/style.css">
+	
+</head>
+
+  <body>
+  
+    <header>
+        <h1>Nous Contacter</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="#">Événements</a></li>
+            <li><a href="galerie.html">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Se connecter</a></li>
+        </ul>
+    </nav>
+  
+    <div class="main-container">
+	
+      <div class="map-container">
+        <gmp-map center="47.2140007019043,-1.5537821054458618" zoom="14" map-id="DEMO_MAP_ID">
+          <gmp-advanced-marker position="47.2140007019043,-1.5537821054458618" title="My location"></gmp-advanced-marker>
+        </gmp-map>
+      </div>
+
+      <div class="coordinates-container">
+        <div class="coordonnees">
+          <h2>Coordonnées</h2>
+          <p>Adresse : 1 Rue Léon Maître, 44000 Nantes</p>
+          <p>Téléphone : +33 1 23 45 67 89</p>
+          <p>Email : mabibliothèque@Associatif.fr</p>
+        </div>
+      </div>
+    
+	</div>
+	
+	<footer>
+        <p>&copy; 2024 Bibliothèque Associative. Tous droits réservés.</p>
+    </footer>
+	
+  </body>
+</html>
